@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js">
+	</script>
+</head>
+<body>
+	<div style="text-align: center; /*left: 40%*/;
+	position: relative;">
+	<form name="cal" class="cal">
+		<input type="text" class="text" name="result"/>
+		<br><br>
+
+	 		<input type="button" class="plus key" value="+" onclick= "plusbtn()">
+	 		<input type="button" class="sub key" value="-" onclick="subbtn()">
+	 		<input type="button" class="mul key" value="*" onclick="mulbtn()">
+	 		<input type="button" class="div key" value="/" onclick="divbtn()">
+	 	<br><br>
+	 		<input type="button" class="one key" value="1" onclick="document.cal.result.value +='1' ">
+	 		<input type="button" class="two key" value="2" onclick="document.cal.result.value +='2' ">
+	 		<input type="button" class="three key" value="3" onclick="document.cal.result.value +='3' "">
+	 		<input type="button" class="four key" value="4" onclick="document.cal.result.value +='4' ")">
+	 		
+	 	<br><br>
+	 		<input type="button" class="five key" value="5" onclick="document.cal.result.value +='5' ">
+	 		<input type="button" class="six key" value="6" onclick="document.cal.result.value +='6' ">
+	 		<input type="button" class="seven key" value="7" onclick="document.cal.result.value +='7' ">
+	 		<input type="button" class="eight key" value="8" onclick="document.cal.result.value +='8' ">
+
+	 	<br><br>
+	 		<input type="button" class="nine key" value="9" onclick="document.cal.result.value +='9' ">
+	 		<input type="button" class="ten key" value="10" onclick="document.cal.result.value +='10' ">
+	 		<input type="button" class="c key" value="c" onclick="clrbtn()">
+            <input type="button" class="= key" value="=" onclick ="document.cal.result.value = eval(document.cal.result.value)";>
+
+	 
+	
+</form></div>
+</body>
+</html>

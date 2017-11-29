@@ -1,0 +1,19 @@
+.cal{
+	    border: solid;
+    width: 15%;
+    height: auto;
+    padding: 18px;
+background-color: #46FEFF;
+    right: 40%;
+    position: absolute;
+}
+.key{
+	    font-size: 25px;
+    border: none;
+    background-color: palegoldenrod;
+}
+.text{
+	font-size: 15px;
+    line-height: 3;
+    border: none;
+}
